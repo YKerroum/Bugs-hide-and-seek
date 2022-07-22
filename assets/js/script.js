@@ -41,7 +41,7 @@ function mobileMenuIcon() {
   }
 }
 
-document.querySelectorAll('.change-menu').forEach((link) => link.addEventListener('click', mobileMenuIcon));
+document.querySelectorAll('.change-menu').addEventListener('click', mobileMenuIcon));
 
 function resetElements() {
   if (hamburgerIcon.className.includes('fa-times')) {
